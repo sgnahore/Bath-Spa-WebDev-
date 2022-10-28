@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantic Tags</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form id=”SignUp”>
+        <label for=”name”>Name:</label><br>
+        <input name=”name” type=”text”/><br>
+        <label for=”email”>Email:</label><br>
+        <input name=”email” type=”email”/><br>
+        <button>send</button>
+    </form>
+     <hr>
+     <img src="/Session 4/Tuckerton-Veterinary-Clinic-Rectangle-Color2x.png" alt="tuckerton">
+     <form id=”Vet_Services”>
+        <label for=”name”>Client Name:</label><br>
+        <input name=”name” type=”text”/><br>
+        <label for=address>Street Address:</label><br>
+        <input name=address type=”text”/><br>
+        <label for=”email”>Email:</label><br>
+        <input name=”email” type=”email”/><br>
+        <label for=number>Phone Number:</label><br>
+        <input name=number type=”number”/><br>
+        <label for=”breed”>Breed:</label><br>
+        <input name=”breed” type=”text”/><br>
+        <label for="heartworm">Is your pet on heartworm preventative?</label>
+        <input name="heartworm" type="checkbox"> Yes  <input name="heartworm" type="checkbox"> No <br>
+    <button> Submit </button>
+    
+     </form>
+        <hr>
+        <h1>Brighton Library</h1>
+     <form id=”Library”>
+        <label for=”name”>First name:</label><br>
+        <input name=”name” type=”text”/><br>
+        <label for=”name”>Surname:</label><br>
+        <input name=”name” type=”text”/><br>
+        <label for=”email”>Email:</label><br>
+        <input name=”email” type=”email”/><br>
+        </form>
+
+<form action="/gender.php">
+    <label for="gender">Gender:</label> <br>
+    <select id="gender" name="gender">
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="non-binary">Non-binary</option>
+      <option value="prefernotosay">Prefer not to say</option>
+    </select>
+    <br>
+    <button> Create account </button>
+  </form>
+ 
+        <hr>
+     <form id=”Supermarket_Loyalty_Card”>
+           <label for=”name”>First Name:</label><br>
+           <input name=”name” type=”text”/><br>
+           <label for=”name”>Surname:</label><br>
+           <input name=”name” type=”text”/><br>
+           <label for=”email”>Email:</label><br>
+           <input name=”email” type=”email”/><br>
+           <input type=”submit” value="send"/>
+           </form>
+
+
+</body>
+</html>
