@@ -19,3 +19,53 @@
       </div>
 </body>
 </html>
+
+/* css */
+
+
+ .flex-container{
+     background-color: aqua;
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+.box-1 {
+        background-color: blue;
+        height: 30%;
+        width: 30%;
+        max-width: 40%;
+}
+
+.box-2{
+    background-color: yellow;
+    height: 45%;
+    width: 65%;
+    max-width: 40%; 
+    flex: auto;
+}
+
+.box-3{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    align-self: flex-end;
+}
+
+.box-4{
+    background-color: green;
+    height: 30%;
+    width: 30%;
+    max-width: 40%;
+    flex-wrap: wrap-reverse;
+}
+
+.box-5{
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    align-self: flex-end;
+    flex: auto;
+}
