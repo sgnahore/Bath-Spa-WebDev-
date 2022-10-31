@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="lightscript.js" defer></script>
+</head>
+<body>
+    <p id="p-change">
+        There is a light bulb down below...
+    </p>
+
+<button onclick="changeHTML()">Hit me!</button>
+
+
+<button onclick="turnOn()"> Turn on the light</button>
+<img src="./light on.webp" alt="light bulb" id="lightBulb">
+<button onclick="turnOff()">Turn off the light</button>
+
+<button onclick="printScreen()">Print!</button>
+
+</body>
+</html>
+
+/* JS CODE:*/
+
+      function changeHTML(){
+        document.getElementById("p-change").innerHTML = "I have changed it";
+    }
+
+        function turnOn() {
+            document.getElementById("lightBulb").src = "light on.webp";
+            console.log("turn on button hit.");
+        }
+        function turnOff() {
+            document.getElementById("lightBulb").src = "light off.webp"
+            console.log("turn off button hit.");
+        }
+
+        function printScreen() {
+            window.print() 
+        }
+        window.alert("ALERT! you are about to enter a toxic site");
+        console.log("ALERT! you are about to enter a toxic site");
